@@ -3,6 +3,7 @@ var fs = require('fs')
 var path = require('path')
 
 exports.problem = fs.createReadStream(path.join(__dirname, 'problem.txt'))
+exports.solution = fs.createReadStream(path.join(__dirname, 'solution.js'))
 
 exports.verify = verify({ modeReset: true }, function (args, t) {
   t.plan(4)
