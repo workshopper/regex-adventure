@@ -2,7 +2,9 @@
   "name": "regex-adventure",
   "version": "1.0.0",
   "description": "learn regular expressions",
-  "main": "index.js",
+  "bin": {
+    "regex-adventure": "cmd.js"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:substack/regex-adventure.git"
