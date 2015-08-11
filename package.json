@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "learn regular expressions",
   "main": "index.js",
-  "scripts": {
-    "test": "tape test/*.js"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:substack/regex-adventure.git"
@@ -20,6 +17,7 @@
     "adventure",
     "nodeschool",
     "regex",
+    "regular expressions",
     "workshop",
     "workshopper"
   ]
