@@ -25,3 +25,5 @@ Capitalize the shortcut escape characters to negate them:
   * \W - [^A-Za-z_]    not a word character
   * \S - [^ \t\r\n\f]  not whitespace
 
+There is a special character class `.` that matches any character, except for
+newlines (under some conditions).

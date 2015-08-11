@@ -1,0 +1,11 @@
+Export a function that takes a string argument and returns whether the string
+ends with a literal `.` (dot).
+
+Here's a template that you can use:
+
+  module.exports = function (str) {
+    /* ... */
+  }
+
+`.` is normally a special character in a regexp, but you can refer to a literal
+`.` (dot) character by putting a \ (backslash) in front of it.
