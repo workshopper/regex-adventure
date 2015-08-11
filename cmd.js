@@ -7,7 +7,7 @@ var lessons = [
   { title: 'LITERALLY', file: './problems/literally' },
   { title: 'ANCHOR START', file: './problems/anchor_start' },
   { title: 'ANCHOR END', file: './problems/anchor_end' },
-  { title: 'CHARACTER CLASS', file: './problems/char_classy' },
+  { title: 'CHARACTER CLASS', file: './problems/char_class' },
   { title: 'DIGI TEST', file: './problems/digi_test' },
   { title: 'GROUP MATCH', file: './problems/group_match' }
 ]
