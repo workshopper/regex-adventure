@@ -1,0 +1,14 @@
+Write a module that returns true only when:
+  the first character is not a digit
+  and the second character is not a capital letter.
+
+Here's a template that you can use:
+
+  module.exports = function (str) {
+    // ...
+  }
+
+Negating a character class makes it match the opposite characters.
+To negate a character class, include a `^` as the first character inside the
+`[]`s.
+
