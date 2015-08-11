@@ -10,6 +10,7 @@ var lessons = [
   { title: 'CHARACTER CLASS', file: './problems/char_class' },
   { title: 'NEGATED CHARACTER CLASS', file: './problems/negated_char_class' },
   { title: 'META', file: './problems/meta' },
+  { title: 'QUANTIFIER', file: './problems/quantifier' },
  
   { title: 'SPLIT', file: './problems/split' }
 ]
