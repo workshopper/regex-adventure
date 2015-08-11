@@ -11,8 +11,8 @@ var lessons = [
   { title: 'NEGATED CHARACTER CLASS', file: './problems/negated_char_class' },
   { title: 'META', file: './problems/meta' },
   { title: 'QUANTIFIER', file: './problems/quantifier' },
- 
-  { title: 'SPLIT', file: './problems/split' }
+  { title: 'SPLIT', file: './problems/split' },
+  { title: 'CAPTURE', file: './problems/capture' }
 ]
 lessons.forEach(function (lesson) {
   shop.add(lesson.title, function () { return require(lesson.file) })
