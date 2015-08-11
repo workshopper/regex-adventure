@@ -13,7 +13,8 @@ var lessons = [
   { title: 'QUANTIFIER', file: './problems/quantifier' },
   { title: 'SPLIT', file: './problems/split' },
   { title: 'CAPTURE', file: './problems/capture' },
-  { title: 'CAPTURE BREAKWORD', file: './problems/capture_breakword' }
+  { title: 'CAPTURE BREAKWORD', file: './problems/capture_breakword' },
+  { title: 'ALTERATION', file: './problems/alteration' }
 ]
 lessons.forEach(function (lesson) {
   shop.add(lesson.title, function () { return require(lesson.file) })
