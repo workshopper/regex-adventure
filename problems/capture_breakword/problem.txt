@@ -16,3 +16,8 @@ Use `(` and `)` to create a capture group like before.
 
 You can use a special type of anchor, `\b` to match when there is a break in a
 word.
+
+To verify your solution, run:
+
+  regex-adventure verify solution.js
+

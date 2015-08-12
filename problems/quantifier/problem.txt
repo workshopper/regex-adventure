@@ -18,3 +18,7 @@ Here are some simple quantifiers:
   +  one or more times
   ?  zero or one times
 
+To verify your solution, run:
+
+  regex-adventure verify solution.js
+

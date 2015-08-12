@@ -27,3 +27,8 @@ Capitalize the shortcut escape characters to negate them:
 
 There is a special character class `.` that matches any character, except for
 newlines (under some conditions).
+
+To verify your solution, run:
+
+  regex-adventure verify solution.js
+

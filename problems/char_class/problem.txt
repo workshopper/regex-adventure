@@ -20,3 +20,7 @@ Sequential ranges can appear in character classes separated by `-`. For example,
 Remember from previous adventures that regexes in javascript are defined between
 two `/` characters and they have a `.test()` method.
 
+To verify your solution, run:
+
+  regex-adventure verify solution.js
+

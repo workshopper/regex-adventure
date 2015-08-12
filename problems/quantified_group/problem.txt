@@ -18,3 +18,7 @@ character classes. There are more quantifiers aside from `+`, `*`, and `?`:
   {n,}   must occur at least n times
   {n}    must occur exactly n times
 
+To verify your solution, run:
+
+  regex-adventure verify solution.js
+

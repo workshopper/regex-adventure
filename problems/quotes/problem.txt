@@ -12,3 +12,8 @@ You can use `str.match(regex)` to return an array string matches for `regex`
 when the `regex` has `/g` flag enabled.
 
 Negated character classes may be useful here.
+
+To verify your solution, run:
+
+  regex-adventure verify solution.js
+

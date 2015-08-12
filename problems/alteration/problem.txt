@@ -18,3 +18,7 @@ Alteration operators are often seen in capture groups:
 
   /0x(ff|00|80)/.test('0x80') // true
 
+To verify your solution, run:
+
+  regex-adventure verify solution.js
+

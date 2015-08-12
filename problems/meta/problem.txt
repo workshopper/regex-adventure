@@ -15,3 +15,7 @@ put a `\` before the character:
 
   . * + ? [ ] ( ) ^ $ { } | \
 
+To verify your solution, run:
+
+  regex-adventure verify solution.js
+

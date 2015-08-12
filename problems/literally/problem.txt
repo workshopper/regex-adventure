@@ -22,3 +22,7 @@ Add `.test()` to the end of a regex to run a test on a regex:
 
   /wow/.test('so amaze wow such doge') // returns true or false
 
+To verify your solution, run:
+
+  regex-adventure verify solution.js
+

@@ -17,3 +17,7 @@ The text that matches inside the `(` and `)` will be captured and available on
 the match object with square bracket indexes starting from 1 for the leftmost
 group.
 
+To verify your solution, run:
+
+  regex-adventure verify solution.js
+
