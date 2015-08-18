@@ -22,5 +22,9 @@
     "regular expressions",
     "workshop",
     "workshopper"
-  ]
+  ],
+  "devDependencies": {
+    "marked": "^0.3.5",
+    "quotemeta": "0.0.0"
+  }
 }

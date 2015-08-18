@@ -16,7 +16,8 @@ var lessons = [
   { title: 'CAPTURE BREAKWORD', file: './problems/capture_breakword' },
   { title: 'ALTERATION', file: './problems/alteration' },
   { title: 'QUANTIFIED GROUP', file: './problems/quantified_group' },
-  { title: 'QUOTES', file: './problems/quotes' }
+  { title: 'QUOTES', file: './problems/quotes' },
+  { title: 'BLINK', file: './problems/blink' }
 ]
 lessons.forEach(function (lesson) {
   shop.add(lesson.title, function () { return require(lesson.file) })
