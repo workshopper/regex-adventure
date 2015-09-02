@@ -3,7 +3,7 @@ contains exactly 8 columns of hex codes formatted like: 0xFF with one or more
 characters of trailing whitespace after each hex code to separate the columns.
 
 The hex codes begin with `0x` and have exactly 2 more characters, which may be
-upper or lower case `A-F` or `a-f`.
+uppercase `A-F` or lowercase `a-f` or any digit.
 
 Here's a template that you can use:
 
