@@ -1,6 +1,6 @@
 {
   "name": "regex-adventure",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "learn regular expressions",
   "bin": {
     "regex-adventure": "cmd.js"
