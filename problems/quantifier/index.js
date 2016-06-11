@@ -6,7 +6,7 @@ exports.problem = fs.createReadStream(path.join(__dirname, 'problem.txt'))
 exports.solution = fs.createReadStream(path.join(__dirname, 'solution.js'))
 
 exports.verify = verify({ modeReset: true }, function (args, t) {
-  t.plan(8)
+  t.plan(9)
   var f = require(path.resolve(args[0]))
   t.ok(f('123.jpg'), '123.jpg')
   t.ok(f('123.jpeg'), '123.jpeg')
@@ -16,4 +16,5 @@ exports.verify = verify({ modeReset: true }, function (args, t) {
   t.notOk(f('123.jpg2000'), '123.jpg2000')
   t.notOk(f('123.png'), '123.png')
   t.notOk(f('.jpeg'), '.jpeg')
+  t.notOk(f('111.jpeeg'), '111.jpeeg')
 })
