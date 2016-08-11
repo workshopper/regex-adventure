@@ -5,7 +5,7 @@ argument and should return whether the string contains another string,
 Here's a template that you can use:
 
   module.exports = function (str) {
-    /* return whether str contains the string "LITERALLY"
+    /* return whether str contains the string "LITERALLY" */
   }
 
 To test for the presence of the string "LITERALLY", you can use a regular
@@ -25,4 +25,3 @@ Add `.test()` to the end of a regex to run a test on a regex:
 To verify your solution, run:
 
   regex-adventure verify solution.js
-
