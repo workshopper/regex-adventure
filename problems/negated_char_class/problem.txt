@@ -16,13 +16,13 @@ You won't need these right now, but there are some handy shortcuts for character
 classes:
 
   * \d - [0-9]        any digit
-  * \w - [A-Za-z_]    word character
+  * \w - [A-Za-z0-9_]    word character
   * \s - [ \t\r\n\f]  whitespace
 
 Capitalize the shortcut escape characters to negate them:
 
   * \D - [^0-9]        not a digit
-  * \W - [^A-Za-z_]    not a word character
+  * \W - [^A-Za-z0-9_]    not a word character
   * \S - [^ \t\r\n\f]  not whitespace
 
 There is a special character class `.` that matches any character, except for
